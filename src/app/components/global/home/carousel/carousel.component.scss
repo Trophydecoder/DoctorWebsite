@@ -1,0 +1,91 @@
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-content {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: poppins , sans-serif;
+
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: none;
+  }
+  #doctor{
+    padding-top: 2%;
+  }
+  .hero-content button {
+    background-color :#0069d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 1px;
+    margin: 3%;
+  }
+  
+  .hero-content button:hover {
+    background-color: #0016d9;
+  }
+
+  
+  
+@media screen and (min-width: 1024px){
+  
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+  .hero-content {
+    width: 40%;
+    top: 40%;
+    left: 30%;
+    margin-left: 35%;
+    text-align: left;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    font-family: poppins , sans-serif;
+  }
+  .hero-content h1 {
+    font-size: 48px;
+
+  }
+
+}

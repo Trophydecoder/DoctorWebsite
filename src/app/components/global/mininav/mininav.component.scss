@@ -1,0 +1,61 @@
+.ContainerBook{
+    display: flex;
+    flex-direction: row;
+    background-color:#004fff;
+    width: 100%;
+    display: none;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.Bookings{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.Bookings h1{
+    font-size:15px;
+    text-wrap: nowrap;
+    font-family: poppins,sans-serif;
+    padding-left: 15%;
+}
+.Bookings p{
+    font-size:10px;
+    text-wrap: nowrap;
+    font-family: poppins,sans-serif;
+    padding-left: 1%;
+}
+.Contacts{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: right;
+    align-items: center;
+    width: 40%;
+}
+.fa{
+    padding-left: 1%;
+    font-size: 15px;
+    text-decoration: none;
+     color: white;
+}
+
+.socials{
+   padding-right: 3%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 1024px){
+   .ContainerBook{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        width: 100%;
+        display: flex;
+    }
+}
