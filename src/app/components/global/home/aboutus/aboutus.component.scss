@@ -1,4 +1,125 @@
-.ContainerAboutus{
-    width: 100%;
-    background-color: #0069d9;
+.ContainerAbout{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  
 }
+.Aboutus{
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #0069d9;;
+}
+.Aboutus h1 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: poppins,sans-serif;
+}
+.Aboutus h2{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Aboutus h2 span{
+  font-size: 25px;
+  font-weight: bolder;
+  color:#e4cc60; //the color is a global color I'll add on the global styles//
+}
+
+//boxes begin//
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  flex-direction: column;
+  margin: 5%;
+  background-color: #0069d9;;
+}
+
+.box {
+  width: 70%;
+  padding: 20px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: #8a8989; // white text
+  border: 0.10px solid white;
+
+}
+.box h2{
+  color :#003a79; //the color is a global color I'll add on the global styles//
+  font-weight: bolder;
+  font-family: poppins,sans-serif;
+}
+
+.box i {
+  font-size: 24px;
+  margin-bottom: 10px;
+ color:#ffffff; //the color is a global color I'll add on the global styles//
+}
+
+.box-2 {
+  margin-top: 5%;
+}
+.box-3 {
+  margin-top: 5%;
+}
+
+@media screen and (min-width: 1024px){
+  .ContainerAbout{
+   margin-top: 3%;
+   height: 0vh;
+  
+  }
+  .Aboutus h1 {
+    font-size: 25px;
+    margin-top: 2%;
+  }
+  .Aboutus h2{
+    font-size: 20px;
+  }
+  .Aboutus h2 span{
+    font-size: 24px;
+    font-weight: bolder;
+    color:#e4cc60; //the color is a global color I'll add on the global styles//
+  }
+  .boxes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+  }
+  
+  .box {
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+  
+    margin: 0 10px;
+    color: #fff; // white text
+  }
+  
+  .box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; // white icon
+  }
+  .box-2 {
+    margin-top: 0%;
+  }
+  .box-3 {
+    margin-top: -5%;
+  }
+  .box-1{
+    margin-top: -5%;
+  }
+  .boxes-container {
+    height: 60vh;
+  }
+
+}  
