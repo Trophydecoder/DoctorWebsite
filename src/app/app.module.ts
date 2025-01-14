@@ -10,6 +10,7 @@ import { CarouselComponent } from './components/global/home/carousel/carousel.co
 import { BookingsComponent } from './components/global/home/bookings/bookings.component';
 import { AboutusComponent } from './components/global/home/aboutus/aboutus.component';
 import { WhyChooseUsComponent } from './components/global/home/why-choose-us/why-choose-us.component';
+import { GalleryComponent } from './components/global/home/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WhyChooseUsComponent } from './components/global/home/why-choose-us/why
     CarouselComponent,
     BookingsComponent,
     AboutusComponent,
-    WhyChooseUsComponent
+    WhyChooseUsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
