@@ -8,6 +8,7 @@ import { MininavComponent } from './components/global/mininav/mininav.component'
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CarouselComponent } from './components/global/home/carousel/carousel.component';
 import { BookingsComponent } from './components/global/home/bookings/bookings.component';
+import { AboutusComponent } from './components/global/home/aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BookingsComponent } from './components/global/home/bookings/bookings.co
     MininavComponent,
     HomepageComponent,
     CarouselComponent,
-    BookingsComponent
+    BookingsComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
