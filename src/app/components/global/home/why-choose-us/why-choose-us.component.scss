@@ -1,0 +1,42 @@
+.ContainerHeading{
+    width:100%;
+}
+.heading{
+   display: flex;
+  text-align: center;
+   flex-direction: column;
+}
+.heading h1{
+    font-family: poppins,sans-serif;
+    color: #0069d9;
+}
+.heading p{
+    margin-top: -1%;
+    color: gray;
+}
+.ContainerWhychooseus{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    margin-left: 8%;
+}
+.fas{
+    color: #0069d9;
+    font-size: 15px;
+}
+#chooseusimg{
+    width: 80%;
+    padding-left: 6%;
+}
+
+
+.Whychooseus{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    margin-top: 5%;
+}
+.Whychooseus p{
+    color: gray;
+}
